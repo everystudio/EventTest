@@ -9,6 +9,7 @@ public class EventHandlerListener : MonoBehaviour
     {
         m_eventHandlerSender.EventVoid += ListenVoid;
         m_eventHandlerSender.EventInt += ListenInt;
+
     }
 
     private void OnDisable()
